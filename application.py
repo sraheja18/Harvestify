@@ -106,7 +106,8 @@ def weather_fetch(city_name):
 # ------------------------------------ FLASK APP -------------------------------------------------
 
 
-app = Flask(__name__)
+application = Flask(__name__)
+app=application
 
 # render home page
 
